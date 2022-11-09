@@ -9,6 +9,7 @@ import (
 func main() {
 	numbers, err := datafile.GetFloats("D:\\xc-work\\study\\go\\test\\src\\readfile\\data.txt")
 	if err != nil {
+
 		log.Fatal(err)
 	}
 	var sum float64 = 0
